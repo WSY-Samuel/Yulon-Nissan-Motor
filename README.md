@@ -1,9 +1,9 @@
 # Yulon Nissan Motor
-### Background: Analyzing the car data of driving and GPS from Yulon Nissan Motor, exploring insights, and then recommending a proposal with business value.
+#### Background: Analyzing the car data of driving and GPS from Yulon Nissan Motor, exploring insights, and then recommending a proposal with business value.
 
-### Target: Building features to distinguish different drivers, clustering them, and finally, suggesting fitted vehicles.
+#### Target: Building features to distinguish different drivers, clustering them, and finally, suggesting fitted vehicles.
 
-### Models: K-Means, Affinity Propagation, Hierarchical Clustering 
+#### Models: K-Means, Affinity Propagation, Hierarchical Clustering 
 
 ## Introdution 
 - Target Audience(TA): Car owners who existed from 2019 to 2022 (1298 in total) and ranged between January 2022 and June 2022. Additionally, the feature of receiving satellite data is set to true in order to explicitly capture driving information.

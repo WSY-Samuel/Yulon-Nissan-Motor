@@ -38,9 +38,13 @@ Comparing three clustering algorithms, I believe that the group results of K-Mea
 
 The optimization process includes:
 1. Dropping the camping area feature.
-2. Verifying the number of groups using the Silhouette Coefficient. The highest score obtained is 5.  
+2. Verifying the number of groups using the Silhouette Coefficient. The highest score obtained is 5.
+
 <img width="414" alt="Screenshot 2023-11-27 at 20 13 40" src="https://github.com/WSY-Samuel/Yulon-Nissan-Motor/assets/87291914/1edcccc2-b228-4bdd-a999-b57800b46f43">  
-Based on the above, I calculated the clustering results for recommending cars using the Calinski-Harabasz index and Davies-Boudin index. After optimization, the clustering results for features, driver ID, and data counts are very close between the two algorithms.  
-<img width="568" alt="Screenshot 2023-11-27 at 20 27 49" src="https://github.com/WSY-Samuel/Yulon-Nissan-Motor/assets/87291914/8ceb72bf-1350-4e5f-b8bf-7d98800fc7bf">
+
+Based on the above, I calculated the clustering results for recommending cars using the Calinski-Harabasz index and Davies-Boudin index. After optimization, the clustering results for features, driver ID, and data counts are very close between the two algorithms.
+ 
+<img width="568" alt="Screenshot 2023-11-27 at 20 27 49" src="https://github.com/WSY-Samuel/Yulon-Nissan-Motor/assets/87291914/8ceb72bf-1350-4e5f-b8bf-7d98800fc7bf">  
+
 According to the calculations, the results of K-Means have a higher score on the Calinski-Harabasz index and a lower score on the Davies-Boudin index. Finally, I chose the labels of clustering by K-Means for recommending cars.
 
